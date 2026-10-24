@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cours pédagogique : Généralités et notions de base du Web, historique, Web 1.0 à 3.0 et architectures des applications Web.">
+  <title>Généralités et notions de base du Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero" id="accueil">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a class="logo" href="#accueil">Web<span>Essentiel</span></a>
+      <div class="nav-links">
+        <a href="#historique">Historique</a>
+        <a href="#web-avenir">Web et avenir</a>
+        <a href="#architectures">Architectures</a>
+        <a href="#conclusion">Conclusion</a>
+      </div>
+    </nav>
+    <div class="hero-content container">
+      <p class="eyebrow">CHAPITRE 1 · COURS</p>
+      <h1>Généralités et notions de base du Web</h1>
+      <p class="hero-text">Comprendre la naissance d’Internet, l’évolution du Web et les principales architectures des applications Web.</p>
+      <a class="primary-button" href="#introduction">Commencer le cours <span aria-hidden="true">↓</span></a>
+      <div class="hero-stats">
+        <div><strong>3</strong><span>grandes périodes historiques</span></div>
+        <div><strong>3</strong><span>générations du Web étudiées</span></div>
+        <div><strong>4</strong><span>architectures à comparer</span></div>
+      </div>
+    </div>
+    <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+  </header>
+
+  <main class="container">
+    <section class="section intro-section" id="introduction">
+      <div class="section-heading">
+        <p class="eyebrow">INTRODUCTION</p>
+        <h2>Internet et le Web : quelle différence ?</h2>
+      </div>
+      <div class="two-columns">
+        <article class="info-card">
+          <div class="icon-box blue">🌐</div>
+          <h3>Internet</h3>
+          <p>Internet est un réseau mondial constitué par l’interconnexion de plusieurs réseaux informatiques. On l’appelle aussi <strong>le réseau des réseaux</strong>.</p>
+        </article>
+        <article class="info-card">
+          <div class="icon-box purple">🕸️</div>
+          <h3>World Wide Web (WWW)</h3>
+          <p>Le Web est un système de pages et de ressources reliées par des liens hypertextes et consultables avec un navigateur. Il fonctionne sur Internet.</p>
+        </article>
+      </div>
+      <div class="note"><strong>À retenir :</strong> Internet désigne l’infrastructure de communication ; le Web est un service qui utilise cette infrastructure.</div>
+    </section>
+
+    <section class="section" id="historique">
+      <div class="section-heading">
+        <p class="eyebrow">A · HISTORIQUE</p>
+        <h2>Les grandes étapes de l’histoire d’Internet</h2>
+        <p>De la recherche menée pendant la guerre froide à la diffusion mondiale du Web.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">1957–1960</div>
+          <div class="timeline-card">
+            <h3>1. Les années 60 : contexte de la guerre froide</h3>
+            <ul>
+              <li><strong>1957 :</strong> création de l’ARPA aux États-Unis pour soutenir la recherche et renforcer la supériorité scientifique et technique américaine.</li>
+              <li><strong>1967 :</strong> Lawrence G. Roberts présente des plans pour le réseau ARPANET.</li>
+              <li>Donald Davies et Robert Scantlebury contribuent à la conception des réseaux à commutation de paquets.</li>
+            </ul>
+            <p class="mini-note">La commutation de paquets consiste à découper les informations en petits blocs transmis sur le réseau.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">1969–1983</div>
+          <div class="timeline-card">
+            <h3>2. Les années 70/80 : ARPANET et TCP/IP</h3>
+            <ul>
+              <li><strong>1969 :</strong> ARPANET relie initialement quatre institutions universitaires.</li>
+              <li><strong>1970 :</strong> le protocole NCP est utilisé pour permettre la communication entre des machines différentes.</li>
+              <li><strong>1983 :</strong> TCP/IP remplace définitivement NCP sur ARPANET et devient le protocole de base d’Internet.</li>
+            </ul>
+            <div class="protocol-grid">
+              <div><span class="protocol-label">TCP</span><p>Découpe le message en paquets et les réorganise à la réception.</p></div>
+              <div><span class="protocol-label">IP</span><p>Assure l’acheminement des paquets vers leur destination.</p></div>
+            </div>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">1989–2000</div>
+          <div class="timeline-card">
+            <h3>3. Des années 80/90/2000 : d’Internet au WWW</h3>
+            <ul>
+              <li><strong>1989 :</strong> Tim Berners-Lee, au CERN, propose un système de documents reliés par des liens hypertextes.</li>
+              <li><strong>1991 :</strong> le World Wide Web est mis au point et devient accessible au public.</li>
+              <li><strong>1992 :</strong> un premier lien hypertexte vers le site du CERN est créé sur un serveur de Fermilab.</li>
+              <li><strong>1993 :</strong> les navigateurs Web capables d’afficher du texte et des images se développent.</li>
+              <li>Durant les années 1990, le nombre de sites et d’utilisateurs augmente rapidement.</li>
+            </ul>
+            <div class="definition-list">
+              <div><strong>HTML</strong><span>Langage de balisage qui structure le contenu des pages.</span></div>
+              <div><strong>URL</strong><span>Adresse permettant d’identifier une ressource sur le Web.</span></div>
+              <div><strong>HTTP</strong><span>Protocole utilisé pour échanger des ressources Web.</span></div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="note"><strong>Repère chronologique :</strong> ARPANET est un précurseur d’Internet. Le Web apparaît plus tard et facilite la consultation de documents grâce aux pages et aux liens hypertextes.</div>
+    </section>
+
+    <section class="section web-section" id="web-avenir">
+      <div class="section-heading">
+        <p class="eyebrow">B · LE WEB ET SON AVENIR</p>
+        <h2>Les générations du Web</h2>
+        <p>Chaque génération met l’accent sur une manière différente de publier, partager et exploiter l’information.</p>
+      </div>
+      <div class="generation-grid">
+        <article class="generation-card gen-one">
+          <div class="generation-top"><span class="generation-number">01</span><span class="generation-period">1991–1999</span></div>
+          <h3>Web 1.0</h3>
+          <p class="generation-subtitle">Le Web statique ou passif</p>
+          <p>Le producteur publie du contenu et l’internaute le consulte. L’intervention de l’utilisateur est limitée.</p>
+          <h4>Caractéristiques</h4>
+          <ul><li>Sites orientés produits</li><li>Fonctionnement linéaire</li><li>Consultation principalement passive</li></ul>
+          <div class="example"><strong>Exemple :</strong> une page présentant un produit sans espace de commentaires.</div>
+        </article>
+        <article class="generation-card gen-two">
+          <div class="generation-top"><span class="generation-number">02</span><span class="generation-period">2000–2009</span></div>
+          <h3>Web 2.0</h3>
+          <p class="generation-subtitle">Le Web collaboratif ou social</p>
+          <p>Les utilisateurs peuvent créer, commenter et partager des contenus avec d’autres personnes.</p>
+          <h4>Caractéristiques</h4>
+          <ul><li>Partage et échange</li><li>Blogs et réseaux sociaux</li><li>Collaboration et participation</li></ul>
+          <div class="example"><strong>Exemple :</strong> publier une vidéo, commenter un article ou contribuer à un blog.</div>
+        </article>
+        <article class="generation-card gen-three">
+          <div class="generation-top"><span class="generation-number">03</span><span class="generation-period">Depuis 2010</span></div>
+          <h3>Web 3.0</h3>
+          <p class="generation-subtitle">Le Web sémantique ou smart Web</p>
+          <p>Il cherche à organiser et interpréter les informations selon le contexte et les besoins de l’utilisateur.</p>
+          <h4>Caractéristiques</h4>
+          <ul><li>Analyse des contenus</li><li>Personnalisation</li><li>Prise en compte du contexte</li></ul>
+          <div class="example"><strong>Exemple :</strong> un service qui adapte ses résultats selon les préférences de l’utilisateur.</div>
+        </article>
+      </div>
+
+      <div class="section-subheading"><h3>Comparaison rapide</h3><p>Le rôle de l’internaute évolue au fil des générations.</p></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Critère</th><th>Web 1.0</th><th>Web 2.0</th><th>Web 3.0</th></tr></thead>
+          <tbody>
+            <tr><th>Idée principale</th><td>Consulter</td><td>Participer et partager</td><td>Interpréter et personnaliser</td></tr>
+            <tr><th>Rôle de l’utilisateur</th><td>Lecteur</td><td>Lecteur et créateur</td><td>Utilisateur accompagné par des services plus contextuels</td></tr>
+            <tr><th>Mots-clés</th><td>Statique, passif</td><td>Social, collaboratif</td><td>Sémantique, intelligent</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="future-panel">
+        <div class="future-icon">✦</div>
+        <div><p class="eyebrow">ET APRÈS ?</p><h3>4. L’avenir du Web</h3>
+          <p>Le cours évoque l’hypothèse d’un <strong>Web 4.0</strong>, parfois appelé Web intelligent, qui pourrait s’appuyer sur l’intelligence artificielle et une interaction plus étroite entre les personnes, les objets et les services connectés.</p>
+          <div class="future-examples">
+            <div><strong>Vêtements connectés</strong><p>Des capteurs pourraient transmettre des informations utiles en cas d’accident ou si une personne est perdue.</p></div>
+            <div><strong>Réfrigérateur connecté</strong><p>Un appareil pourrait détecter les ingrédients manquants et aider à trouver où les acheter.</p></div>
+          </div>
+          <p class="mini-note">Il s’agit de pistes possibles : l’avenir du Web est difficile à prédire avec certitude.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="architectures">
+      <div class="section-heading">
+        <p class="eyebrow">C · ARCHITECTURE DES APPLICATIONS WEB</p>
+        <h2>Comment une application est-elle organisée ?</h2>
+        <p>Une application peut séparer l’affichage, les traitements et la gestion des données. Ces parties peuvent être regroupées ou réparties sur plusieurs machines.</p>
+      </div>
+
+      <div class="layers">
+        <article class="layer-card layer-presentation">
+          <div class="layer-symbol">01</div><div><h3>Couche de présentation (IHM)</h3><p>Permet l’interaction avec l’utilisateur : affichage à l’écran, saisie au clavier ou à la souris, mise en forme des informations.</p></div>
+        </article>
+        <div class="layer-connector">↕</div>
+        <article class="layer-card layer-traitements">
+          <div class="layer-symbol">02</div><div><h3>Couche des traitements (logique métier)</h3><p>Réalise les opérations de l’application. Les traitements locaux peuvent contrôler une saisie ; les traitements globaux appliquent les règles métier.</p></div>
+        </article>
+        <div class="layer-connector">↕</div>
+        <article class="layer-card layer-data">
+          <div class="layer-symbol">03</div><div><h3>Couche d’accès aux données</h3><p>Regroupe les mécanismes qui permettent de stocker, consulter et gérer les informations de l’application.</p></div>
+        </article>
+      </div>
+      <div class="note"><strong>Important :</strong> les trois niveaux d’abstraction sont des rôles logiques. Ils ne correspondent pas obligatoirement à trois ordinateurs distincts.</div>
+
+      <div class="section-subheading"><h3>1. Architecture un tiers</h3><p>Architecture centralisée, dite maître-esclave dans le cours.</p></div>
+      <article class="architecture-card">
+        <div class="architecture-copy">
+          <span class="architecture-tag">UN TIERS</span>
+          <h3>Les couches sur une même machine</h3>
+          <p>Les trois couches sont liées et s’exécutent sur un ordinateur central. Les terminaux passifs servent principalement à afficher les informations et à transmettre les actions de l’utilisateur.</p>
+          <div class="pros-cons">
+            <div><h4>Avantages</h4><ul><li>Déploiement facile</li><li>Adapté à un besoin simple ou centralisé</li></ul></div>
+            <div><h4>Inconvénients</h4><ul><li>Charge importante sur l’ordinateur central</li><li>Maintenance difficile selon le système</li></ul></div>
+          </div>
+        </div>
+        <div class="diagram">
+          <div class="node node-client">Terminal passif</div><div class="arrow">↕</div>
+          <div class="node node-server"><strong>Ordinateur central</strong><span>Présentation + traitements + données</span></div>
+          <p class="diagram-caption">Les traitements sont centralisés.</p>
+        </div>
+      </article>
+
+      <div class="section-subheading"><h3>2. Architecture deux tiers</h3><p>Client-serveur de données, ou client-serveur de première génération.</p></div>
+      <article class="architecture-card">
+        <div class="architecture-copy">
+          <span class="architecture-tag">DEUX TIERS</span>
+          <h3>Un client et un serveur de données</h3>
+          <p>Le poste client prend en charge l’interface et la majorité des traitements applicatifs. Un serveur dédié centralise les données, souvent gérées par un SGBD et interrogées avec SQL.</p>
+          <p><strong>Middleware :</strong> ensemble de couches réseau et de services logiciels facilitant le dialogue entre les composants répartis.</p>
+          <div class="pros-cons">
+            <div><h4>Avantages</h4><ul><li>Interface utilisateur riche</li><li>Données centralisées</li><li>Efficace pour un nombre limité d’utilisateurs</li></ul></div>
+            <div><h4>Inconvénients</h4><ul><li>Client lourd</li><li>Mises à jour sur chaque client</li><li>Performances pouvant diminuer si le nombre de clients augmente</li></ul></div>
+          </div>
+        </div>
+        <div class="diagram">
+          <div class="node node-client"><strong>Client</strong><span>Présentation + traitements</span></div><div class="arrow">⇄<small>Réseau / middleware</small></div>
+          <div class="node node-database"><strong>Serveur de données</strong><span>SGBD · SQL</span></div>
+          <p class="diagram-caption">Le client envoie des requêtes et reçoit les résultats.</p>
+        </div>
+      </article>
+
+      <div class="section-subheading"><h3>3. Architecture trois tiers</h3><p>Client-serveur de deuxième génération, avec séparation en trois niveaux.</p></div>
+      <article class="architecture-card">
+        <div class="architecture-copy">
+          <span class="architecture-tag">TROIS TIERS</span>
+          <h3>Présentation, application et données séparées</h3>
+          <p>Le client gère l’affichage et les traitements locaux. Le serveur intermédiaire prend en charge les traitements applicatifs globaux. Le serveur de base de données gère les informations.</p>
+          <div class="pros-cons">
+            <div><h4>Avantages</h4><ul><li>Client léger</li><li>Déploiement plus aisé</li><li>SGBD centralisé</li></ul></div>
+            <div><h4>Inconvénients</h4><ul><li>La complexité se concentre en partie dans le tiers intermédiaire</li></ul></div>
+          </div>
+        </div>
+        <div class="diagram three-nodes">
+          <div class="node node-client"><strong>1. Client</strong><span>Affichage</span></div><div class="arrow">⇄</div>
+          <div class="node node-server"><strong>2. Serveur Web / applicatif</strong><span>Traitements globaux</span></div><div class="arrow">⇄</div>
+          <div class="node node-database"><strong>3. Serveur de données</strong><span>SGBD</span></div>
+          <p class="diagram-caption">Chaque niveau a un rôle distinct.</p>
+        </div>
+      </article>
+
+      <div class="section-subheading"><h3>4. Architecture n-tiers</h3><p>Une répartition plus fine des services applicatifs.</p></div>
+      <article class="architecture-card">
+        <div class="architecture-copy">
+          <span class="architecture-tag">N-TIERS</span>
+          <h3>Plusieurs services spécialisés</h3>
+          <p>L’architecture n-tiers cherche à dépasser certaines limites du modèle trois tiers. Les composants métier sont spécialisés et indépendants ; ils peuvent communiquer et être installés sur des machines distinctes.</p>
+          <div class="pros-cons">
+            <div><h4>Avantages</h4><ul><li>Répartition de la charge</li><li>Services spécialisés</li><li>Maintenance et évolution facilitées si l’architecture est bien conçue</li></ul></div>
+            <div><h4>Points de vigilance</h4><ul><li>Conception et coordination plus complexes</li><li>Communication entre plusieurs services à gérer</li></ul></div>
+          </div>
+        </div>
+        <div class="diagram">
+          <div class="node node-client">Client</div><div class="arrow">⇄</div>
+          <div class="node node-server">Service de présentation</div><div class="arrow">⇄</div>
+          <div class="node node-server">Services métier</div><div class="arrow">⇄</div>
+          <div class="node node-database">Services de données</div>
+          <p class="diagram-caption">« n » indique plusieurs niveaux ou services, selon la conception.</p>
+        </div>
+      </article>
+
+      <div class="section-subheading"><h3>Tableau de synthèse des architectures</h3></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Architecture</th><th>Organisation</th><th>Point fort</th><th>Limite principale</th></tr></thead>
+          <tbody>
+            <tr><th>Un tiers</th><td>Tout est centralisé sur une machine</td><td>Déploiement simple</td><td>Charge sur le système central</td></tr>
+            <tr><th>Deux tiers</th><td>Client + serveur de données</td><td>Interface riche et données centralisées</td><td>Client lourd, mises à jour multiples</td></tr>
+            <tr><th>Trois tiers</th><td>Client + serveur applicatif + serveur de données</td><td>Séparation des responsabilités</td><td>Complexité du niveau intermédiaire</td></tr>
+            <tr><th>N-tiers</th><td>Plusieurs services spécialisés</td><td>Répartition de la charge et modularité</td><td>Coordination plus complexe</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section conclusion-section" id="conclusion">
+      <div class="conclusion-card">
+        <p class="eyebrow">À RETENIR</p>
+        <h2>Conclusion générale</h2>
+        <p>Internet est né de l’interconnexion de réseaux informatiques et a évolué grâce à des protocoles communs comme TCP/IP. Le World Wide Web, proposé par Tim Berners-Lee, a rendu la consultation des documents plus simple grâce aux pages, aux URL et aux liens hypertextes.</p>
+        <p>Le Web est ensuite passé d’un modèle principalement consultatif (Web 1.0) à un modèle participatif et social (Web 2.0), puis à une approche cherchant à mieux interpréter et personnaliser l’information (Web 3.0). Son avenir reste ouvert et pourrait intégrer davantage de services intelligents et d’objets connectés.</p>
+        <p>Enfin, une application informatique s’organise autour de trois rôles logiques : la présentation, les traitements et les données. Les architectures un tiers, deux tiers, trois tiers et n-tiers répartissent ces rôles de différentes façons selon les besoins, les performances et la facilité de maintenance recherchées.</p>
+        <div class="takeaway-row"><span>Internet ≠ Web</span><span>TCP/IP</span><span>Web 1.0 → 2.0 → 3.0</span><span>Présentation · Traitements · Données</span></div>
+      </div>
+    </section>
+
+    <section class="section glossary-section">
+      <div class="section-heading"><p class="eyebrow">VOCABULAIRE</p><h2>Les mots essentiels</h2></div>
+      <div class="glossary-grid">
+        <div><strong>ARPANET</strong><p>Réseau précurseur d’Internet.</p></div>
+        <div><strong>Protocole</strong><p>Règles qui permettent aux machines de communiquer.</p></div>
+        <div><strong>Hyperlien</strong><p>Lien permettant de passer d’une ressource à une autre.</p></div>
+        <div><strong>Navigateur</strong><p>Logiciel utilisé pour consulter des pages Web.</p></div>
+        <div><strong>SGBD</strong><p>Système de gestion de base de données.</p></div>
+        <div><strong>Client léger</strong><p>Client qui réalise une part limitée des traitements applicatifs.</p></div>
+        <div><strong>Client lourd</strong><p>Client qui prend en charge une part importante des traitements.</p></div>
+        <div><strong>Middleware</strong><p>Services qui facilitent la communication entre composants d’une application répartie.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="logo" href="#accueil">Web<span>Essentiel</span></a><p>Support pédagogique · Généralités et notions de base du Web</p><a href="#accueil">Retour en haut ↑</a></div>
+  </footer>
+</body>
+</html>
